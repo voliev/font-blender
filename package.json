@@ -2,7 +2,7 @@
   "name": "font-blender",
   "version": "1.0.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://voliev.github.io/font-blender",
   "dependencies": {
     "@material-ui/core": "4.6.1",
     "@material-ui/icons": "4.5.1",
