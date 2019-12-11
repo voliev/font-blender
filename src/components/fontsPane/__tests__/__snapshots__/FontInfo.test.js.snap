@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<Fragment>
+  <div
+    className="family"
+  >
+    <h4
+      className="family-name"
+      data-family="Roboto"
+      onClick={[MockFunction]}
+      style={
+        Object {
+          "fontFamily": "'Roboto', 'sans-serif'",
+        }
+      }
+      title="Preview font"
+    >
+      Roboto
+    </h4>
+    <span
+      className="preview-icon"
+    >
+      <RemoveRedEyeRoundedIcon
+        fontSize="default"
+      />
+    </span>
+  </div>
+  <div
+    className="category"
+  >
+    sans-serif
+  </div>
+  <div
+    className="charsets font_small"
+  >
+    <span
+      className="number"
+    >
+      7
+    </span>
+     character
+     
+    sets
+  </div>
+  <div
+    className="styles font_small"
+  >
+    <span
+      className="number"
+    >
+      12
+    </span>
+     
+    styles
+  </div>
+</Fragment>
+`;

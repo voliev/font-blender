@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<header
+  className="Header"
+>
+  <p
+    className="app-name"
+  >
+    FontBlender
+  </p>
+  <Memo(GitHubLink) />
+</header>
+`;

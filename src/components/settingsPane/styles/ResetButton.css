@@ -1,0 +1,4 @@
+.ResetButton {
+  margin: 0 0 0 var(--space-md);
+  padding: var(--space-xs) var(--space-sm);
+}

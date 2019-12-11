@@ -1,0 +1,50 @@
+.NotificationSnackbar {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: var(--border-radius-md);
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 4.25rem;
+  min-height: 3rem;
+  padding: var(--space-sm) var(--space-xs) var(--space-sm) var(--space-md);
+  transition: all 0.4s;
+  width: 21.5rem;
+}
+
+.NotificationSnackbar:not(:last-child) {
+  margin-bottom: var(--space-xs);
+}
+
+.NotificationSnackbar .notification {
+  align-items: center;
+  display: flex;
+  font-size: var(--font-xs);
+  margin: 0 var(--space-xs) 0 0;
+}
+
+.NotificationSnackbar .controls {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.NotificationSnackbar .close-icon {
+  color: var(--white);
+  transition: transform 0.1s;
+}
+
+.NotificationSnackbar .close-icon:hover {
+  transform: scale(1.2);
+}
+
+.NotificationSnackbar.elevate {
+  animation: elevate 0.4s forwards;
+}
+
+.NotificationSnackbar.drop,
+.NotificationSnackbar.undo {
+  animation: fadeOut 0.2s forwards;
+}

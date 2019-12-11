@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<a
+  aria-label="Project GitHub page"
+  className="GitHubLink"
+  href="https://github.com/voliev/font-blender"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  <GitHubIcon
+    fontSize="large"
+  />
+</a>
+`;

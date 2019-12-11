@@ -1,0 +1,13 @@
+.FontPreviewInfo .heading {
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: var(--space-md);
+}
+
+.FontPreviewInfo .category-name,
+.FontPreviewInfo .charsets-list {
+  color: var(--dark-grey);
+}
+
+.FontPreviewInfo .charsets-list {
+  padding-left: var(--space-md);
+}

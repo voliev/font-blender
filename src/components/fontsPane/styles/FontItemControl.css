@@ -1,0 +1,51 @@
+.FontItemControl {
+  align-self: stretch;
+  grid-area: controls;
+  justify-self: end;
+}
+
+.FontItemControl.fetching {
+  color: transparent;
+  text-shadow: var(--blur-text);
+}
+
+.FontItemControl .btn {
+  color: var(--light-grey);
+  margin: 0;
+  transition: color 0.1s ease-out, transform 0.1s ease-out, box-shadow 0.1s;
+}
+
+.FontItemControl .btn:hover {
+  transform: scale(1.2)
+}
+
+.FontItemControl .btn.add-circle:hover {
+  color: var(--green);
+}
+
+.FontItemControl .btn:focus {
+  outline: none;
+}
+
+.FontItemControl .btn.add-circle,
+.FontItemControl .btn.sync {
+  color: var(--grey);
+}
+
+.FontItemControl .btn.checked {
+  color: var(--green);
+}
+
+.FontItemControl:not(.fetching) .btn.sync {
+  color: var(--orange);
+}
+
+.FontItemControl:not(.fetching) .btn.sync:hover {
+  transform: scale(1.2);
+  transform-origin: .75rem .75rem;
+}
+
+.FontItemControl:not(.fetching) .btn.sync:active {
+  transform: rotate(-.25turn);
+  transform-origin: .75rem .75rem;
+}

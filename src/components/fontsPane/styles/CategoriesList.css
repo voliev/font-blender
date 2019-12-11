@@ -1,0 +1,38 @@
+.CategoriesList {
+  animation: fadeIn .2s;
+  background: var(--off-white);
+  box-shadow: var(--popup-shadow);
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: var(--space-lg) 0;
+  position: absolute;
+  right: 1.5rem;
+  top: 4rem;
+  z-index: 100;
+}
+
+.CategoriesList .input {
+  margin-right: var(--space-sm);
+}
+
+.CategoriesList .list-item:not(:last-child) .label {
+  margin-bottom: var(--space-md);
+}
+
+.CategoriesList .label {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: var(--space-md);
+  margin-right: var(--space-lg);
+}
+
+.CategoriesList.fade-in {
+  animation: fadeIn .2s;
+}
+
+.CategoriesList.fade-out {
+  animation: fadeOut .2s;
+}

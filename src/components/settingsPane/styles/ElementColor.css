@@ -1,0 +1,9 @@
+/* Container extra height fix */
+.ElementColor {
+  height: 60px;
+}
+
+.ElementColor .label {
+  cursor: default;
+  margin: 0;
+}

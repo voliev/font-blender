@@ -1,0 +1,5 @@
+.Text .text-wrapper {
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md) var(--space-xxl) var(--space-md);
+  width: 50rem;
+}

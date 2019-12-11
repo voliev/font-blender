@@ -1,0 +1,11 @@
+.SortingOrder {
+  align-items: center;
+  display: flex;
+  height: 4rem;
+  width: 4rem;
+}
+
+.SortingOrder .btn {
+  background-color: transparent;
+  color: var(--blue);
+}

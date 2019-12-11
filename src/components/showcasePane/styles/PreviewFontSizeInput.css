@@ -1,0 +1,17 @@
+.PreviewFontSizeInput {
+  align-items: center;
+  display: flex;
+}
+
+.PreviewFontSizeInput.label,
+.PreviewFontSizeInput.input {
+  margin-right: var(--space-md);
+}
+
+.PreviewFontSizeInput.label {
+  flex: 0 0 7rem;
+}
+
+.PreviewFontSizeInput.input {
+  flex: auto;
+}

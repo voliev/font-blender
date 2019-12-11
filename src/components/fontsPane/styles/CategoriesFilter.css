@@ -1,0 +1,13 @@
+.CategoriesFilter {
+  align-items: center;
+  display: flex;
+  grid-area: icon;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.CategoriesFilter .btn {
+  background-color: transparent;
+  color: var(--blue);
+}

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should not crash if the list is empty 1`] = `
+<div
+  className="SelectedFontsHeaderBar empty"
+  onClick={[MockFunction]}
+>
+  <p
+    className="text"
+  >
+    <span
+      className="num"
+    >
+      0
+    </span>
+    <span>
+       
+      families
+       selected
+    </span>
+  </p>
+  <div
+    className="icon"
+  >
+    <ExpandLessRoundedIcon />
+  </div>
+</div>
+`;
+
+exports[`should render without crashing 1`] = `
+<div
+  className="SelectedFontsHeaderBar"
+  onClick={[MockFunction]}
+>
+  <p
+    className="text"
+  >
+    <span
+      className="num"
+    >
+      4
+    </span>
+    <span>
+       
+      families
+       selected
+    </span>
+  </p>
+  <div
+    className="icon"
+  >
+    <ExpandLessRoundedIcon />
+  </div>
+</div>
+`;

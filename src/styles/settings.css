@@ -1,0 +1,113 @@
+:root {
+  --base: 16px;
+
+  /* Typography */
+  --scale-ratio: 1.2;
+
+  --base-font-size: var(--base);
+
+  --font-xs: calc(var(--base-font-size) / var(--scale-ratio));
+  --font-sm: var(--base-font-size);
+  --font-md: calc(var(--font-sm) * var(--scale-ratio));
+  --font-lg: calc(var(--font-md) * var(--scale-ratio));
+  --font-xl: calc(var(--font-lg) * var(--scale-ratio));
+  --font-xxl: calc(var(--font-xl) * var(--scale-ratio));
+
+  /* Spacing */
+  /* 4px */
+  --space-xxs: calc(0.25 * var(--base));
+  /* 8px */
+  --space-xs: calc(0.5 * var(--base));
+  /* 12px */
+  --space-sm: calc(0.75 * var(--base));
+  /* 20px */
+  --space-md: calc(1.25 * var(--base));
+  /* 32px */
+  --space-lg: calc(2 * var(--base));
+  /* 52px */
+  --space-xl: calc(3.25 * var(--base));
+  /* 84px */
+  --space-xxl: calc(5.25 * var(--base));
+
+  /* Colors */
+  --black: #212934;
+  --off-black: #5f6b7a;
+  --dark-grey: #5f6b7a;
+  --grey: #b8c4ce;
+  --light-grey: #cfd6de;
+  --off-white: #e1e7ec;
+  --almost-white: #f1f3f5;
+  --white: #ffffff;
+
+  --blue: #20639b;
+  --green: #259d58;
+  --orange: #caa53d;
+  --red: #f01e4a;
+
+  --error-background: #fffcf4;
+  --error-border: #f4ca64;
+  --error-text: #8d6f22;
+
+  /* Box-shadow */
+  --active-input-shadow: 0 0 3px 0 var(--blue);
+  --inactive-input-shadow: 0 0 0 1px var(--grey);
+  --hovered-button-shadow: 0 2px 4px 0 var(--dark-grey);
+  --popup-shadow: 0 2px 6px 0 var(--light-grey);
+
+  /* Border-radius */
+  --border-radius-sm: 2px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 6px;
+  --border-radius-max: 50%;
+
+  /* Miscellaneous */
+  --blur-text: 0 0 20px var(--off-black);
+  --side-pane-width: 22rem;
+}
+
+/* Animaitons */
+@keyframes elevate {
+  from {
+    transform: translateY(10rem);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes growY {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(100%)
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.4, 1.4);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "webfonts#webfontList",
+  "items": [
+    {
+      "kind": "webfonts#webfont",
+      "family": "Oregano",
+      "category": "display",
+      "variants": ["regular", "italic"],
+      "subsets": ["latin-ext", "latin"],
+      "version": "v5",
+      "lastModified": "2017-10-10",
+      "files": {
+        "regular": "http://fonts.gstatic.com/s/oregano/v5/If2IXTPxciS3H4S2kZc.ttf",
+        "italic": "http://fonts.gstatic.com/s/oregano/v5/If2KXTPxciS3H4S2oZXVOw.ttf"
+      }
+    },
+    {
+      "kind": "webfonts#webfont",
+      "family": "Fondamento",
+      "category": "handwriting",
+      "variants": ["regular", "italic"],
+      "subsets": ["latin-ext", "latin"],
+      "version": "v7",
+      "lastModified": "2017-10-10",
+      "files": {
+        "regular": "http://fonts.gstatic.com/s/fondamento/v7/4UaHrEJGsxNmFTPDnkaJx60.ttf",
+        "italic": "http://fonts.gstatic.com/s/fondamento/v7/4UaFrEJGsxNmFTPDnkaJ96_p4g.ttf"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.GitHubLink {
+  margin: 0 var(--space-lg) 0 0;
+}
+
+.GitHubLink {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+  width: 2.5rem;
+}

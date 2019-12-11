@@ -1,0 +1,17 @@
+.Header {
+  background-color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Header .app-name {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  font-size: var(--font-xxl);
+  font-weight: 700;
+  height: 4rem;
+  margin: 0 0 0 var(--space-lg);
+}

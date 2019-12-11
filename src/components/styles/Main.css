@@ -1,0 +1,6 @@
+.Main {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 2.074rem * 1.2 * 1.5);
+  width: 100%;
+}

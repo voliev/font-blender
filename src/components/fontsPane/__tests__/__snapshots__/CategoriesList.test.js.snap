@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<CategoriesList
+  animationEndHandler={[MockFunction]}
+  categories={
+    Object {
+      "display": true,
+      "handwriting": true,
+      "monospace": true,
+      "sans-serif": true,
+      "serif": true,
+    }
+  }
+  setCategoriesFilter={[MockFunction]}
+  stage="fade-in"
+>
+  <ul
+    className="CategoriesList fade-in"
+    onAnimationEnd={[MockFunction]}
+  >
+    <li
+      className="list-item"
+      key="serif"
+    >
+      <label
+        className="label"
+        htmlFor="serif"
+      >
+        <ForwardRef>
+          <WithStyles(ForwardRef(SvgIcon))>
+            <ForwardRef(SvgIcon)
+              classes={
+                Object {
+                  "colorAction": "MuiSvgIcon-colorAction",
+                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                  "colorError": "MuiSvgIcon-colorError",
+                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                  "root": "MuiSvgIcon-root",
+                }
+              }
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM17.99 9l-1.41-1.42-6.59 6.59-2.58-2.57-1.42 1.41 4 3.99z"
+                />
+              </svg>
+            </ForwardRef(SvgIcon)>
+          </WithStyles(ForwardRef(SvgIcon))>
+        </ForwardRef>
+        <input
+          checked={true}
+          className="input"
+          id="serif"
+          name="categories"
+          onChange={[Function]}
+          type="checkbox"
+          value="serif"
+        />
+        Serif
+      </label>
+    </li>
+    <li
+      className="list-item"
+      key="sans-serif"
+    >
+      <label
+        className="label"
+        htmlFor="sans-serif"
+      >
+        <ForwardRef>
+          <WithStyles(ForwardRef(SvgIcon))>
+            <ForwardRef(SvgIcon)
+              classes={
+                Object {
+                  "colorAction": "MuiSvgIcon-colorAction",
+                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                  "colorError": "MuiSvgIcon-colorError",
+                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                  "root": "MuiSvgIcon-root",
+                }
+              }
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM17.99 9l-1.41-1.42-6.59 6.59-2.58-2.57-1.42 1.41 4 3.99z"
+                />
+              </svg>
+            </ForwardRef(SvgIcon)>
+          </WithStyles(ForwardRef(SvgIcon))>
+        </ForwardRef>
+        <input
+          checked={true}
+          className="input"
+          id="sans-serif"
+          name="categories"
+          onChange={[Function]}
+          type="checkbox"
+          value="sans-serif"
+        />
+        Sans Serif
+      </label>
+    </li>
+    <li
+      className="list-item"
+      key="display"
+    >
+      <label
+        className="label"
+        htmlFor="display"
+      >
+        <ForwardRef>
+          <WithStyles(ForwardRef(SvgIcon))>
+            <ForwardRef(SvgIcon)
+              classes={
+                Object {
+                  "colorAction": "MuiSvgIcon-colorAction",
+                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                  "colorError": "MuiSvgIcon-colorError",
+                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                  "root": "MuiSvgIcon-root",
+                }
+              }
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM17.99 9l-1.41-1.42-6.59 6.59-2.58-2.57-1.42 1.41 4 3.99z"
+                />
+              </svg>
+            </ForwardRef(SvgIcon)>
+          </WithStyles(ForwardRef(SvgIcon))>
+        </ForwardRef>
+        <input
+          checked={true}
+          className="input"
+          id="display"
+          name="categories"
+          onChange={[Function]}
+          type="checkbox"
+          value="display"
+        />
+        Display
+      </label>
+    </li>
+    <li
+      className="list-item"
+      key="monospace"
+    >
+      <label
+        className="label"
+        htmlFor="monospace"
+      >
+        <ForwardRef>
+          <WithStyles(ForwardRef(SvgIcon))>
+            <ForwardRef(SvgIcon)
+              classes={
+                Object {
+                  "colorAction": "MuiSvgIcon-colorAction",
+                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                  "colorError": "MuiSvgIcon-colorError",
+                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                  "root": "MuiSvgIcon-root",
+                }
+              }
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM17.99 9l-1.41-1.42-6.59 6.59-2.58-2.57-1.42 1.41 4 3.99z"
+                />
+              </svg>
+            </ForwardRef(SvgIcon)>
+          </WithStyles(ForwardRef(SvgIcon))>
+        </ForwardRef>
+        <input
+          checked={true}
+          className="input"
+          id="monospace"
+          name="categories"
+          onChange={[Function]}
+          type="checkbox"
+          value="monospace"
+        />
+        Monospace
+      </label>
+    </li>
+    <li
+      className="list-item"
+      key="handwriting"
+    >
+      <label
+        className="label"
+        htmlFor="handwriting"
+      >
+        <ForwardRef>
+          <WithStyles(ForwardRef(SvgIcon))>
+            <ForwardRef(SvgIcon)
+              classes={
+                Object {
+                  "colorAction": "MuiSvgIcon-colorAction",
+                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                  "colorError": "MuiSvgIcon-colorError",
+                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                  "root": "MuiSvgIcon-root",
+                }
+              }
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM17.99 9l-1.41-1.42-6.59 6.59-2.58-2.57-1.42 1.41 4 3.99z"
+                />
+              </svg>
+            </ForwardRef(SvgIcon)>
+          </WithStyles(ForwardRef(SvgIcon))>
+        </ForwardRef>
+        <input
+          checked={true}
+          className="input"
+          id="handwriting"
+          name="categories"
+          onChange={[Function]}
+          type="checkbox"
+          value="handwriting"
+        />
+        Handwriting
+      </label>
+    </li>
+  </ul>
+</CategoriesList>
+`;

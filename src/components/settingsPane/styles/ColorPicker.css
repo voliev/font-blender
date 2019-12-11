@@ -1,0 +1,57 @@
+.ColorPicker {
+  position: relative;
+}
+
+.ColorPicker .icon {
+  background-color: var(--white);
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--inactive-input-shadow);
+  cursor: pointer;
+  display: inline-block;
+  height: 2rem;
+  padding: var(--space-xxs);
+  width: 100%;
+}
+
+.ColorPicker.active .icon {
+  box-shadow: var(--active-input-shadow);
+  ;
+  outline: none;
+}
+
+.ColorPicker.disabled .icon {
+  background-color: var(--off-white);
+  cursor: default;
+}
+
+.ColorPicker .color {
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--inactive-input-shadow);
+  ;
+  height: 100%;
+  width: 100%;
+}
+
+/* Disables inline style set by the module */
+.ColorPicker.disabled .color {
+  background-color: var(--light-grey) !important;
+}
+
+.ColorPicker.active .picker {
+  position: absolute;
+  z-index: 100;
+}
+
+.ColorPicker.active .picker.above {
+  bottom: 33px;
+}
+
+.ColorPicker.active .picker.below {
+  top: 33px;
+}
+
+/* Container extra height fix */
+.ColorPicker .active-container {
+  height: 32px;
+  margin-bottom: 32px;
+}

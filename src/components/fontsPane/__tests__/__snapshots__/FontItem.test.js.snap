@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<li
+  className="FontItem"
+>
+  <FontInfo
+    active={true}
+    category="sans-serif"
+    family="Open Sans"
+    fetched={true}
+    fetching={false}
+    fontPreviewClickHandler={[Function]}
+    prefetched={true}
+    requested={true}
+    subsets={
+      Array [
+        "greek",
+        "vietnamese",
+        "latin-ext",
+        "cyrillic-ext",
+        "greek-ext",
+        "latin",
+        "cyrillic",
+      ]
+    }
+    variants={
+      Array [
+        "300",
+        "300italic",
+        "regular",
+        "italic",
+        "600",
+        "600italic",
+        "700",
+        "700italic",
+        "800",
+        "800italic",
+      ]
+    }
+  />
+  <FontItemControl
+    active={true}
+    category="sans-serif"
+    family="Open Sans"
+    fetched={true}
+    fetching={false}
+    fontSelectionDeselectionHandler={[Function]}
+    prefetched={true}
+    requestFont={[Function]}
+    requested={true}
+    selected={false}
+    subsets={
+      Array [
+        "greek",
+        "vietnamese",
+        "latin-ext",
+        "cyrillic-ext",
+        "greek-ext",
+        "latin",
+        "cyrillic",
+      ]
+    }
+    variants={
+      Array [
+        "300",
+        "300italic",
+        "regular",
+        "italic",
+        "600",
+        "600italic",
+        "700",
+        "700italic",
+        "800",
+        "800italic",
+      ]
+    }
+  />
+</li>
+`;

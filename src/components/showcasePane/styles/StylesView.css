@@ -1,0 +1,11 @@
+.StylesView {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  padding: var(--space-lg) var(--space-md) var(--space-xxl) var(--space-md);
+  width: 50rem;
+}
+
+.StylesView .controls {
+  display: flex;
+  justify-content: flex-end;
+}

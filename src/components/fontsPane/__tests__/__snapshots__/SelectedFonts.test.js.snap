@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should not crash if the list is empty 1`] = `
+<Fragment>
+  <div
+    className="SelectedFonts empty"
+    onTransitionEnd={[Function]}
+    style={Object {}}
+    title="Select fonts first"
+  >
+    <OutsideClickHandler
+      disabled={true}
+      display="block"
+      onOutsideClick={[Function]}
+      useCapture={true}
+    >
+      <SelectedFontsHeaderBar
+        folded={true}
+        headerBarClickHandler={[Function]}
+        selectedFonts={Array []}
+      />
+    </OutsideClickHandler>
+  </div>
+  <div
+    className="overlay"
+  />
+</Fragment>
+`;
+
+exports[`should render without crashing 1`] = `
+<Fragment>
+  <div
+    className="SelectedFonts empty"
+    onTransitionEnd={[Function]}
+    style={Object {}}
+    title="Select fonts first"
+  >
+    <OutsideClickHandler
+      disabled={true}
+      display="block"
+      onOutsideClick={[Function]}
+      useCapture={true}
+    >
+      <SelectedFontsHeaderBar
+        folded={true}
+        headerBarClickHandler={[Function]}
+        selectedFonts={Array []}
+      />
+    </OutsideClickHandler>
+  </div>
+  <div
+    className="overlay"
+  />
+</Fragment>
+`;

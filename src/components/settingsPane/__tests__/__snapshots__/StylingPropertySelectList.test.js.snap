@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="StylingPropertySelectList"
+>
+  <label
+    className="label"
+    htmlFor="h1-font-family"
+  >
+    Font family
+  </label>
+  <select
+    className="select-list"
+    disabled={false}
+    id="h1-font-family"
+    name="font-family"
+    onChange={[Function]}
+    value="Lato"
+  >
+    <option
+      key="default"
+      value="default"
+    >
+      sans-sefir
+    </option>
+    <option
+      key="Lato"
+      value="Lato"
+    >
+      Lato
+    </option>
+    <option
+      key="Montserrat"
+      value="Montserrat"
+    >
+      Montserrat
+    </option>
+    <option
+      key="Roboto Condensed"
+      value="Roboto Condensed"
+    >
+      Roboto Condensed
+    </option>
+    <option
+      key="Raleway"
+      value="Raleway"
+    >
+      Raleway
+    </option>
+  </select>
+</div>
+`;

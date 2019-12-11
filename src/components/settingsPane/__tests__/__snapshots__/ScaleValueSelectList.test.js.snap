@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="ScaleValueSelectList"
+>
+  <label
+    className="label"
+    htmlFor="scale-value"
+  >
+    Scale value
+  </label>
+  <select
+    disabled={false}
+    id="scale-value"
+    name="scaleValue"
+    onChange={[MockFunction]}
+    value={1.414}
+  >
+    <option
+      key="1.067"
+      value="1.067"
+    >
+      1.067 - Minor Second
+    </option>
+    <option
+      key="1.125"
+      value="1.125"
+    >
+      1.125 - Major Second
+    </option>
+    <option
+      key="1.2"
+      value="1.2"
+    >
+      1.2 - Minor Third
+    </option>
+    <option
+      key="1.25"
+      value="1.25"
+    >
+      1.25 - Major Third
+    </option>
+    <option
+      key="1.333"
+      value="1.333"
+    >
+      1.333 - Perfect Fourth
+    </option>
+    <option
+      key="1.414"
+      value="1.414"
+    >
+      1.414 - Augmented Fourth
+    </option>
+    <option
+      key="1.5"
+      value="1.5"
+    >
+      1.5 - Perfect Fifth
+    </option>
+    <option
+      key="1.618"
+      value="1.618"
+    >
+      1.618 - Golden Ratio
+    </option>
+  </select>
+</div>
+`;

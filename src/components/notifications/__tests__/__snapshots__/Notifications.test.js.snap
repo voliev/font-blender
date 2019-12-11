@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="Notifications"
+>
+  <Connect(NotificationSnackbar)
+    group="selectedFonts"
+    key="Roboto font family has been removed"
+    notification={
+      Object {
+        "current": "Roboto font family has been removed",
+        "pending": "",
+      }
+    }
+    removeNotification={[MockFunction]}
+    undoActionHandler={[MockFunction]}
+  />
+  <Connect(NotificationSnackbar)
+    group="styles"
+    key="Styles has been reset"
+    notification={
+      Object {
+        "current": "Styles has been reset",
+        "pending": "",
+      }
+    }
+    removeNotification={[MockFunction]}
+    undoActionHandler={[MockFunction]}
+  />
+</div>
+`;

@@ -1,0 +1,7 @@
+.SelectedFontsList {
+  background-color: var(--white);
+  list-style: none;
+  margin: 0;
+  overflow-y: auto;
+  padding: var(--space-md) 0;
+}

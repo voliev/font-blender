@@ -1,0 +1,36 @@
+.SelectedFontsLayout {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  max-height: calc(100vh - 4em);
+  position: absolute;
+  right: 0;
+  width: var(--side-pane-width);
+  z-index: 100;
+}
+
+.SelectedFontsLayout .main {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 7rem);
+}
+
+.SelectedFontsLayout.folded .main {
+  height: 0;
+}
+
+/*
+  Display viewport overlay when the list
+  of selected fonts is unfolded
+ */
+.SelectedFontsLayout:not(.folded) ~ .overlay {
+  background: rgba(255, 255, 255, 0.4);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}

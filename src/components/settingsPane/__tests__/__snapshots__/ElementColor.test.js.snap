@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="ElementColor"
+>
+  <p
+    className="label"
+  >
+    Color
+  </p>
+  <ColorPicker
+    color="#333"
+    colorChangeHandler={[Function]}
+    disabled={false}
+  />
+</div>
+`;

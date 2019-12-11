@@ -1,0 +1,37 @@
+.FontsList {
+  background-color: var(--white);
+  grid-area: list;
+}
+
+.FontsList.error {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.FontsList.error .msg {
+  display: flex;
+  flex-direction: column;
+  padding-left: var(--space-xl);
+  position: relative;
+}
+
+.FontsList.error .msg .text:first-of-type {
+  font-weight: 700;
+  margin: var(--space-xs) 0 var(--space-xxs) 0;
+}
+
+.FontsList.error .msg .text:last-of-type {
+  margin: var(--space-xxs) 0 var(--space-lg) 0;
+}
+
+.FontsList.error .msg svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.FontsList.error .btn {
+  align-self: stretch;
+}

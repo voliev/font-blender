@@ -1,0 +1,14 @@
+.FontsPane {
+  background-color: var(--off-white);
+  display: grid;
+  grid-template-rows: 4rem 4rem calc(100vh - 15rem) 3rem;
+  grid-template-columns: 18rem 4rem;
+  grid-template-areas:
+    "search icon"
+    "sorting sorting"
+    "list list"
+    "selected selected";
+  height: calc(100vh - 4rem);
+  position: relative;
+  width: var(--side-pane-width);
+}

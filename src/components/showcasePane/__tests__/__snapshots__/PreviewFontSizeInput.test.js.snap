@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<Fragment>
+  <label
+    className="PreviewFontSizeInput label"
+    htmlFor="preview-font-size"
+  >
+    Font size (px)
+  </label>
+  <input
+    className="PreviewFontSizeInput input"
+    id="preview-font-size"
+    max="100"
+    min="1"
+    name="font-size"
+    onChange={[Function]}
+    type="number"
+    value={16}
+  />
+</Fragment>
+`;

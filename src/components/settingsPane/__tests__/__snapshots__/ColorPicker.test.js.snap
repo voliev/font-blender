@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<OutsideClickHandler
+  disabled={true}
+  display="block"
+  onOutsideClick={[Function]}
+  useCapture={true}
+>
+  <div
+    className="ColorPicker"
+  >
+    <div
+      className="active-container"
+      onClick={[Function]}
+    >
+      <div
+        className="icon"
+      >
+        <div
+          className="color"
+          style={
+            Object {
+              "background": "#333",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</OutsideClickHandler>
+`;

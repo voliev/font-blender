@@ -1,0 +1,14 @@
+.FontPreviewVariants .variant {
+  align-items: center;
+  display: flex;
+}
+
+.FontPreviewVariants .variant-value {
+  flex: 0 0 7rem;
+  margin-right: var(--space-md);
+}
+
+.FontPreviewVariants .variant-example {
+  flex: 0 auto auto;
+  margin: 0;
+}

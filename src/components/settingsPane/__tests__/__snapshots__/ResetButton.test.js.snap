@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<button
+  className="ResetButton btn-no-background"
+  disabled={false}
+  onClick={[MockFunction]}
+  title="Reset styles"
+  value="reset"
+>
+  Reset
+</button>
+`;

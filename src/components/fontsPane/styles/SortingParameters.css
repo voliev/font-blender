@@ -1,0 +1,6 @@
+.SortingParameters {
+  height: 2rem;
+  margin-left: var(--space-lg);
+  text-transform: capitalize;
+  width: 15rem;
+}

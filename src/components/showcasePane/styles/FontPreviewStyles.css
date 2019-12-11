@@ -1,0 +1,9 @@
+.FontPreviewStyles .heading {
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: var(--space-md);
+}
+
+.FontPreviewStyles .font-size-controls {
+  align-items: center;
+  display: flex;
+}

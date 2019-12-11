@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should not crash if title filter is an empty string 1`] = `
+<div
+  className="TitleFilter"
+>
+  <input
+    aria-label="Filter by font family title"
+    className="text-input"
+    name="title"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+  <button
+    className="icon"
+    disabled={true}
+    onClick={[Function]}
+    title="Clear"
+  >
+    <SearchIcon />
+  </button>
+</div>
+`;
+
+exports[`should render without crashing 1`] = `
+<div
+  className="TitleFilter"
+>
+  <input
+    aria-label="Filter by font family title"
+    className="text-input"
+    name="title"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value="Roboto"
+  />
+  <button
+    className="icon clickable"
+    disabled={false}
+    onClick={[Function]}
+    title="Clear"
+  >
+    <ClearOutlinedIcon />
+  </button>
+</div>
+`;

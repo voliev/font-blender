@@ -1,0 +1,7 @@
+.SettingsPane {
+  background-color: var(--off-white);
+  min-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  width: var(--side-pane-width);
+}

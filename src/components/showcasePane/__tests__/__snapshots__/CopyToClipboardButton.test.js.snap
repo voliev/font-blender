@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<button
+  className="CopyToClipboardButton btn-blue-rect"
+  data-clipboard-target="#code-snippet"
+  disabled={false}
+  title="Copy to clipboard"
+  value="copy"
+>
+  <span
+    className="icon"
+  >
+    <FileCopyOutlinedIcon
+      fontSize="small"
+    />
+  </span>
+  Copy to clipboard
+</button>
+`;

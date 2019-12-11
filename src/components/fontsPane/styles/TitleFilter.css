@@ -1,0 +1,42 @@
+.TitleFilter {
+  align-items: center;
+  display: flex;
+  grid-area: search;
+  position: relative;
+}
+
+.TitleFilter .text-input {
+  height: 2.5rem;
+  margin-left: var(--space-lg);
+  padding: var(--space-xs) var(--space-lg) var(--space-xs) var(--space-sm);
+  width: 15rem;
+}
+
+.TitleFilter .icon {
+  color: var(--grey);
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  height: 1.5rem;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  right: 1.5rem;
+  width: 1.5rem;
+}
+
+.TitleFilter .icon.clickable {
+  cursor: pointer;
+}
+
+.TitleFilter .icon:focus {
+  box-shadow: var(--active-input-shadow);
+  ;
+  outline: none;
+  transition: box-shadow 0.1s;
+}
+
+.TitleFilter .icon.clickable:hover {
+  color: var(--blue);
+}

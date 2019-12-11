@@ -1,0 +1,7 @@
+.SettingsPaneFooter {
+  align-items: center;
+  background-color: var(--light-grey);
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+}

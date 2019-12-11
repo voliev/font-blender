@@ -1,0 +1,13 @@
+.Elements {
+  margin: 0 var(--space-md);
+  padding: var(--space-md) 0;
+}
+
+.Elements .element {
+  padding: var(--space-md) 0;
+}
+
+.Elements .element-label {
+  font-weight: 700;
+  margin: 0 0 var(--space-xs) 0;
+}

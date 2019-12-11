@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<li
+  className="SelectedFontItem"
+  onTransitionEnd={[Function]}
+>
+  <p
+    className="font-family"
+  >
+    Roboto
+  </p>
+  <button
+    className="btn btn-round-small"
+    onClick={[Function]}
+    title="Deselect font"
+    value="Roboto"
+  >
+    <RemoveCircleOutlineRoundedIcon
+      fontSize="default"
+    />
+  </button>
+</li>
+`;

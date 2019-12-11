@@ -1,0 +1,6 @@
+.Notifications {
+  bottom: 1em;
+  left: calc(100vw / 2 - 21.5em / 2);
+  position: absolute;
+  z-index: 999;
+}

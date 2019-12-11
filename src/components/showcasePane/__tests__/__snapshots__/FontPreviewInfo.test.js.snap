@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="FontPreviewInfo"
+>
+  <h2
+    className="heading"
+    style={
+      Object {
+        "fontFamily": "'Roboto', sans-serif",
+      }
+    }
+  >
+    Roboto
+  </h2>
+  <div
+    className="category"
+  >
+    <h3
+      className="heading"
+    >
+      Category
+    </h3>
+    <p
+      className="category-name"
+    >
+      sans-serif
+    </p>
+  </div>
+  <div
+    className="charsets"
+  >
+    <h3
+      className="heading"
+    >
+      Charsets
+    </h3>
+    <ul
+      className="charsets-list"
+    >
+      <li
+        key="greek"
+      >
+        greek
+      </li>
+      <li
+        key="vietnamese"
+      >
+        vietnamese
+      </li>
+      <li
+        key="latin-ext"
+      >
+        latin-ext
+      </li>
+      <li
+        key="cyrillic-ext"
+      >
+        cyrillic-ext
+      </li>
+      <li
+        key="greek-ext"
+      >
+        greek-ext
+      </li>
+      <li
+        key="latin"
+      >
+        latin
+      </li>
+      <li
+        key="cyrillic"
+      >
+        cyrillic
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,7 @@
+.SortingFilter {
+  align-items: center;
+  display: flex;
+  grid-area: sorting;
+  justify-content: space-between;
+  padding: 0;
+}

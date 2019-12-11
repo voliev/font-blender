@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="SortingOrder"
+>
+  <button
+    className="btn btn-round-big"
+    onClick={[MockFunction]}
+    title="Change sorting order"
+    value="asc"
+  >
+    <ArrowDownwardRoundedIcon />
+  </button>
+</div>
+`;

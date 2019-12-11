@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="TypeScale"
+>
+  <p
+    className="group-label"
+  >
+    Type Scale
+  </p>
+  <Memo(BaseFontSizeInput)
+    disabled={false}
+    fontSizeChangeHandler={[Function]}
+    value={16}
+  />
+  <Memo(ScaleValueSelectList)
+    disabled={false}
+    scaleChangeHandler={[Function]}
+    value={1.414}
+  />
+</div>
+`;

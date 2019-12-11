@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="StylesView"
+>
+  <SyntaxHighlighter
+    customStyle={
+      Object {
+        "borderRadius": "6px",
+        "padding": "2rem",
+        "whiteSpace": "pre-wrap",
+      }
+    }
+    id="code-snippet"
+    language="css"
+    style={
+      Object {
+        "hljs": Object {
+          "background": "#f8f8ff",
+          "color": "#000",
+          "display": "block",
+          "overflowX": "auto",
+          "padding": "0.5em",
+        },
+        "hljs-addition": Object {
+          "background": "#dfd",
+        },
+        "hljs-attribute": Object {
+          "color": "#000080",
+          "fontWeight": "normal",
+        },
+        "hljs-built_in": Object {
+          "color": "#0086b3",
+        },
+        "hljs-builtin-name": Object {
+          "color": "#0086b3",
+        },
+        "hljs-bullet": Object {
+          "color": "#990073",
+        },
+        "hljs-comment": Object {
+          "color": "#408080",
+          "fontStyle": "italic",
+        },
+        "hljs-deletion": Object {
+          "background": "#fdd",
+        },
+        "hljs-doctag": Object {
+          "color": "#219161",
+        },
+        "hljs-emphasis": Object {
+          "fontStyle": "italic",
+        },
+        "hljs-keyword": Object {
+          "color": "#954121",
+        },
+        "hljs-link": Object {
+          "color": "#b68",
+        },
+        "hljs-literal": Object {
+          "color": "#954121",
+        },
+        "hljs-meta": Object {
+          "color": "#999",
+          "fontWeight": "bold",
+        },
+        "hljs-name": Object {
+          "color": "#000080",
+          "fontWeight": "normal",
+        },
+        "hljs-number": Object {
+          "color": "#40a070",
+        },
+        "hljs-params": Object {
+          "color": "#00f",
+        },
+        "hljs-quote": Object {
+          "color": "#408080",
+          "fontStyle": "italic",
+        },
+        "hljs-regexp": Object {
+          "color": "#b68",
+        },
+        "hljs-section": Object {
+          "color": "#19469d",
+        },
+        "hljs-selector-class": Object {
+          "color": "#19469d",
+        },
+        "hljs-selector-id": Object {
+          "color": "#19469d",
+        },
+        "hljs-selector-tag": Object {
+          "color": "#954121",
+        },
+        "hljs-string": Object {
+          "color": "#219161",
+        },
+        "hljs-strong": Object {
+          "fontWeight": "bold",
+        },
+        "hljs-subst": Object {
+          "color": "#954121",
+        },
+        "hljs-symbol": Object {
+          "color": "#990073",
+        },
+        "hljs-tag": Object {
+          "color": "#000080",
+          "fontWeight": "normal",
+        },
+        "hljs-template-variable": Object {
+          "color": "#008080",
+        },
+        "hljs-title": Object {
+          "color": "#458",
+          "fontWeight": "bold",
+        },
+        "hljs-type": Object {
+          "color": "#19469d",
+        },
+        "hljs-variable": Object {
+          "color": "#008080",
+        },
+      }
+    }
+  >
+    :root {
+  --base-font-size: 16px;
+  --scale-ratio: 1.414;
+
+  --font-xs:  calc(var(--base-font-size) / var(--scale-ratio));
+  --font-sm:  var(--base-font-size);
+  --font-md:  calc(var(--font-sm) * var(--scale-ratio));
+  --font-lg:  calc(var(--font-md) * var(--scale-ratio));
+  --font-xl:  calc(var(--font-lg) * var(--scale-ratio));
+  --font-xxl: calc(var(--font-xl) * var(--scale-ratio));
+
+  font-size: var(--font-sm);
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'sans-serif';
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--font-xxl);
+  margin-top: 0;
+}
+
+h2 {
+  font-size: var(--font-xl);
+}
+
+h3 {
+  font-size: var(--font-lg);
+}
+
+h4 {
+  font-size: var(--font-md);
+}
+
+small {
+  font-size: var(--font-xs);
+}
+
+  </SyntaxHighlighter>
+  <div
+    className="controls"
+  >
+    <Connect(CopyToClipboardButton)
+      target="code-snippet"
+    />
+  </div>
+</div>
+`;

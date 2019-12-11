@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should not crash if visibleFonts array is empty 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <VisibleFonts
+    adjustBundleSize={[MockFunction]}
+    visibleFonts={Array []}
+  >
+    <ul
+      className="VisibleFonts empty"
+    >
+      <li
+        className="no-matches"
+      >
+        No matches found...
+      </li>
+    </ul>
+  </VisibleFonts>
+</Provider>
+`;

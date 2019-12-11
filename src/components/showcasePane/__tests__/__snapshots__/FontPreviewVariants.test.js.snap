@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="FontPreviewVariants"
+>
+  <dl
+    className="variant"
+    key="100"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "100 16px Roboto, sans-serif",
+        }
+      }
+    >
+      100
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "100 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="100italic"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "italic 100 16px Roboto, sans-serif",
+        }
+      }
+    >
+      100italic
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "italic 100 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="300"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "300 16px Roboto, sans-serif",
+        }
+      }
+    >
+      300
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "300 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="300italic"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "italic 300 16px Roboto, sans-serif",
+        }
+      }
+    >
+      300italic
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "italic 300 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="regular"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "normal 16px Roboto, sans-serif",
+        }
+      }
+    >
+      regular
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "normal 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="italic"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "italic 16px Roboto, sans-serif",
+        }
+      }
+    >
+      italic
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "italic 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="500"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "500 16px Roboto, sans-serif",
+        }
+      }
+    >
+      500
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "500 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="500italic"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "italic 500 16px Roboto, sans-serif",
+        }
+      }
+    >
+      500italic
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "italic 500 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="700"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "700 16px Roboto, sans-serif",
+        }
+      }
+    >
+      700
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "700 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="700italic"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "italic 700 16px Roboto, sans-serif",
+        }
+      }
+    >
+      700italic
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "italic 700 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="900"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "900 16px Roboto, sans-serif",
+        }
+      }
+    >
+      900
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "900 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+  <dl
+    className="variant"
+    key="900italic"
+  >
+    <dt
+      className="variant-value"
+      style={
+        Object {
+          "font": "italic 900 16px Roboto, sans-serif",
+        }
+      }
+    >
+      900italic
+    </dt>
+    <dd
+      className="variant-example"
+      style={
+        Object {
+          "font": "italic 900 16px Roboto, sans-serif",
+        }
+      }
+    >
+      That's the beauty of music. They can't get that from you...
+    </dd>
+  </dl>
+</div>
+`;

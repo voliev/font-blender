@@ -1,0 +1,11 @@
+.StylingPropertySelectList {
+  margin-bottom: var(--space-xs);
+}
+
+.StylingPropertySelectList .label {
+  display: block;
+}
+
+.StylingPropertySelectList .select-list {
+  width: 100%;
+}

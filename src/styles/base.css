@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700|Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: var(--base);
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.5;
+  overflow: hidden;
+  width: 100%;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 2.75rem 0 1rem;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: var(--font-xxl);
+}
+
+h2 {
+  font-size: var(--font-xl);
+}
+
+h3 {
+  font-size: var(--font-lg);
+}
+
+h4 {
+  font-size: var(--font-md);
+}
+
+small,
+.font-small {
+  font-size: var(--font-xs);
+}
+
+input[type="number"],
+input[type="text"],
+select {
+  background-color: var(--white);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--inactive-input-shadow);
+  height: 2rem;
+  padding: 0.25rem 0.5rem;
+  transition: box-shadow 0.1s;
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+select:focus {
+  box-shadow: var(--active-input-shadow);
+  outline: none;
+  transition: box-shadow 0.1s;
+}
+
+button:disabled,
+input:disabled,
+select:disabled {
+  color: var(--light-grey);
+  cursor: default;
+}
+
+button {
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+/* Buttons */
+.btn-blue-rect {
+  background-color: var(--blue);
+  border-radius: var(--border-radius-md);
+  box-shadow: none;
+  color: var(--white);
+  flex: 0 0 auto;
+  height: 2.5rem;
+  padding: 0 var(--space-sm);
+  transition: box-shadow 0.1s;
+}
+
+.btn-blue-rect:focus,
+.btn-blue-rect:hover {
+  box-shadow: var(--hovered-button-shadow);
+  transition: box-shadow 0.1s;
+}
+
+.btn-blue-rect:disabled {
+  background-color: var(--grey);
+  box-shadow: none;
+  color: var(--off-white);
+}
+
+.btn-no-background {
+  background: none;
+  color: var(--black);
+  transition: color 0.1s;
+}
+
+.btn-no-background:hover {
+  color: var(--red);
+  transition: color 0.1s;
+}
+
+.btn-no-background:disabled {
+  color: var(--dark-grey);
+}
+
+.btn-round-big {
+  border-radius: var(--border-radius-max);
+  height: 2.5rem;
+  padding: 0;
+  transition: background-color 0.1s, color 0.1s;
+  width: 2.5rem;
+}
+
+.btn-round-big:focus,
+.btn-round-big:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.btn-round-small {
+  background-color: transparent;
+  border-radius: var(--border-radius-max);
+  height: 1.5rem;
+  padding: 0;
+  width: 1.5rem;
+}

@@ -1,0 +1,3132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+Object {
+  "disabled": false,
+  "selectedFonts": Object {
+    "Lato": Object {
+      "active": false,
+      "category": "sans-serif",
+      "family": "Lato",
+      "fetched": false,
+      "fetching": false,
+      "prefetched": false,
+      "requested": false,
+      "subsets": Array [
+        "latin-ext",
+        "latin",
+      ],
+      "variants": Array [
+        "100",
+        "100italic",
+        "300",
+        "300italic",
+        "regular",
+        "italic",
+        "700",
+        "700italic",
+        "900",
+        "900italic",
+      ],
+    },
+    "Montserrat": Object {
+      "active": true,
+      "category": "sans-serif",
+      "family": "Montserrat",
+      "fetched": false,
+      "fetching": false,
+      "prefetched": true,
+      "requested": true,
+      "subsets": Array [
+        "vietnamese",
+        "latin-ext",
+        "cyrillic-ext",
+        "latin",
+        "cyrillic",
+      ],
+      "variants": Array [
+        "100",
+        "100italic",
+        "200",
+        "200italic",
+        "300",
+        "300italic",
+        "regular",
+        "italic",
+        "500",
+        "500italic",
+        "600",
+        "600italic",
+        "700",
+        "700italic",
+        "800",
+        "800italic",
+        "900",
+        "900italic",
+      ],
+    },
+    "Raleway": Object {
+      "active": false,
+      "category": "sans-serif",
+      "family": "Raleway",
+      "fetched": false,
+      "fetching": false,
+      "prefetched": false,
+      "requested": false,
+      "subsets": Array [
+        "latin-ext",
+        "latin",
+      ],
+      "variants": Array [
+        "100",
+        "100italic",
+        "200",
+        "200italic",
+        "300",
+        "300italic",
+        "regular",
+        "italic",
+        "500",
+        "500italic",
+        "600",
+        "600italic",
+        "700",
+        "700italic",
+        "800",
+        "800italic",
+        "900",
+        "900italic",
+      ],
+    },
+    "Roboto Condensed": Object {
+      "active": false,
+      "category": "sans-serif",
+      "family": "Roboto Condensed",
+      "fetched": false,
+      "fetching": false,
+      "prefetched": false,
+      "requested": true,
+      "subsets": Array [
+        "greek",
+        "vietnamese",
+        "latin-ext",
+        "cyrillic-ext",
+        "greek-ext",
+        "latin",
+        "cyrillic",
+      ],
+      "variants": Array [
+        "300",
+        "300italic",
+        "regular",
+        "italic",
+        "700",
+        "700italic",
+      ],
+    },
+  },
+  "setStylesInheritance": [MockFunction],
+  "textStyles": Object {
+    "body": Object {
+      "color": "#333",
+      "fontFamily": "sans-serif",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+    },
+    "h1": Object {
+      "color": "#333",
+      "fontFamily": "sans-serif",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "inheritStyles": true,
+    },
+    "h2": Object {
+      "color": "#333",
+      "fontFamily": "sans-serif",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "inheritStyles": true,
+    },
+    "h3": Object {
+      "color": "#333",
+      "fontFamily": "sans-serif",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "inheritStyles": true,
+    },
+    "h4": Object {
+      "color": "#333",
+      "fontFamily": "sans-serif",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "inheritStyles": true,
+    },
+    "li": Object {
+      "color": "#333",
+      "fontFamily": "sans-serif",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "inheritStyles": true,
+    },
+    "small": Object {
+      "color": "#333",
+      "fontFamily": "sans-serif",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "inheritStyles": true,
+    },
+  },
+  "wrapper": <div
+    className="Elements"
+  >
+    <div
+      className="element"
+      key="body"
+    >
+      <p
+        className="element-label"
+      >
+        &lt;
+        body
+        &gt;
+      </p>
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="body"
+        key="font-family"
+        options={
+          Array [
+            "Lato",
+            "Montserrat",
+            "Raleway",
+            "Roboto Condensed",
+          ]
+        }
+        property="font-family"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="sans-serif"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="body"
+        key="font-style"
+        property="font-style"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="normal"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="body"
+        key="font-weight"
+        property="font-weight"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value={400}
+      />
+      <Connect(ElementColor)
+        element="body"
+      />
+    </div>
+    <div
+      className="element"
+      key="h1"
+    >
+      <p
+        className="element-label"
+      >
+        &lt;
+        h1
+        &gt;
+      </p>
+      <Memo(StylesInheritanceInput)
+        disabled={false}
+        element="h1"
+        inheritStyles={true}
+        stylesInheritanceChangeHandler={[Function]}
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h1"
+        key="font-family"
+        options={
+          Array [
+            "Lato",
+            "Montserrat",
+            "Raleway",
+            "Roboto Condensed",
+          ]
+        }
+        property="font-family"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="sans-serif"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h1"
+        key="font-style"
+        property="font-style"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="normal"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h1"
+        key="font-weight"
+        property="font-weight"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value={400}
+      />
+      <Connect(ElementColor)
+        element="h1"
+      />
+    </div>
+    <div
+      className="element"
+      key="h2"
+    >
+      <p
+        className="element-label"
+      >
+        &lt;
+        h2
+        &gt;
+      </p>
+      <Memo(StylesInheritanceInput)
+        disabled={false}
+        element="h2"
+        inheritStyles={true}
+        stylesInheritanceChangeHandler={[Function]}
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h2"
+        key="font-family"
+        options={
+          Array [
+            "Lato",
+            "Montserrat",
+            "Raleway",
+            "Roboto Condensed",
+          ]
+        }
+        property="font-family"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="sans-serif"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h2"
+        key="font-style"
+        property="font-style"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="normal"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h2"
+        key="font-weight"
+        property="font-weight"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value={400}
+      />
+      <Connect(ElementColor)
+        element="h2"
+      />
+    </div>
+    <div
+      className="element"
+      key="h3"
+    >
+      <p
+        className="element-label"
+      >
+        &lt;
+        h3
+        &gt;
+      </p>
+      <Memo(StylesInheritanceInput)
+        disabled={false}
+        element="h3"
+        inheritStyles={true}
+        stylesInheritanceChangeHandler={[Function]}
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h3"
+        key="font-family"
+        options={
+          Array [
+            "Lato",
+            "Montserrat",
+            "Raleway",
+            "Roboto Condensed",
+          ]
+        }
+        property="font-family"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="sans-serif"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h3"
+        key="font-style"
+        property="font-style"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="normal"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h3"
+        key="font-weight"
+        property="font-weight"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value={400}
+      />
+      <Connect(ElementColor)
+        element="h3"
+      />
+    </div>
+    <div
+      className="element"
+      key="h4"
+    >
+      <p
+        className="element-label"
+      >
+        &lt;
+        h4
+        &gt;
+      </p>
+      <Memo(StylesInheritanceInput)
+        disabled={false}
+        element="h4"
+        inheritStyles={true}
+        stylesInheritanceChangeHandler={[Function]}
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h4"
+        key="font-family"
+        options={
+          Array [
+            "Lato",
+            "Montserrat",
+            "Raleway",
+            "Roboto Condensed",
+          ]
+        }
+        property="font-family"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="sans-serif"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h4"
+        key="font-style"
+        property="font-style"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="normal"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="h4"
+        key="font-weight"
+        property="font-weight"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value={400}
+      />
+      <Connect(ElementColor)
+        element="h4"
+      />
+    </div>
+    <div
+      className="element"
+      key="li"
+    >
+      <p
+        className="element-label"
+      >
+        &lt;
+        li
+        &gt;
+      </p>
+      <Memo(StylesInheritanceInput)
+        disabled={false}
+        element="li"
+        inheritStyles={true}
+        stylesInheritanceChangeHandler={[Function]}
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="li"
+        key="font-family"
+        options={
+          Array [
+            "Lato",
+            "Montserrat",
+            "Raleway",
+            "Roboto Condensed",
+          ]
+        }
+        property="font-family"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="sans-serif"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="li"
+        key="font-style"
+        property="font-style"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="normal"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="li"
+        key="font-weight"
+        property="font-weight"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value={400}
+      />
+      <Connect(ElementColor)
+        element="li"
+      />
+    </div>
+    <div
+      className="element"
+      key="small"
+    >
+      <p
+        className="element-label"
+      >
+        &lt;
+        small
+        &gt;
+      </p>
+      <Memo(StylesInheritanceInput)
+        disabled={false}
+        element="small"
+        inheritStyles={true}
+        stylesInheritanceChangeHandler={[Function]}
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="small"
+        key="font-family"
+        options={
+          Array [
+            "Lato",
+            "Montserrat",
+            "Raleway",
+            "Roboto Condensed",
+          ]
+        }
+        property="font-family"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="sans-serif"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="small"
+        key="font-style"
+        property="font-style"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value="normal"
+      />
+      <Connect(StylingPropertySelectList)
+        disabled={false}
+        element="small"
+        key="font-weight"
+        property="font-weight"
+        selectedFonts={
+          Object {
+            "Lato": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Lato",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Montserrat": Object {
+              "active": true,
+              "category": "sans-serif",
+              "family": "Montserrat",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": true,
+              "requested": true,
+              "subsets": Array [
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Raleway": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Raleway",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": false,
+              "subsets": Array [
+                "latin-ext",
+                "latin",
+              ],
+              "variants": Array [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic",
+              ],
+            },
+            "Roboto Condensed": Object {
+              "active": false,
+              "category": "sans-serif",
+              "family": "Roboto Condensed",
+              "fetched": false,
+              "fetching": false,
+              "prefetched": false,
+              "requested": true,
+              "subsets": Array [
+                "greek",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic-ext",
+                "greek-ext",
+                "latin",
+                "cyrillic",
+              ],
+              "variants": Array [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+              ],
+            },
+          }
+        }
+        value={400}
+      />
+      <Connect(ElementColor)
+        element="small"
+      />
+    </div>
+  </div>,
+}
+`;

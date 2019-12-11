@@ -1,0 +1,40 @@
+.FontPreview {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  padding: var(--space-lg) var(--space-md) var(--space-xxl) var(--space-md);
+  width: 50rem;
+}
+
+.FontPreview.error,
+.FontPreview.fetching {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.FontPreview.error .msg {
+  display: flex;
+  flex-direction: column;
+  padding-left: var(--space-xl);
+  position: relative;
+}
+
+.FontPreview.error .msg .text:first-of-type {
+  font-weight: 700;
+  margin: var(--space-xs) 0 var(--space-xxs) 0;
+}
+
+.FontPreview.error .msg .text:last-of-type {
+  margin: var(--space-xxs) 0 var(--space-lg) 0;
+}
+
+.FontPreview.error .msg svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.FontPreview.error .btn {
+  align-self: stretch;
+}

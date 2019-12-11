@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="Background"
+>
+  <p
+    className="label"
+  >
+    Background
+  </p>
+  <ColorPicker
+    color="#fff"
+    colorChangeHandler={[MockFunction]}
+    disabled={false}
+  />
+</div>
+`;

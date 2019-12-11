@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="NotificationSnackbar elevate"
+  onAnimationEnd={[Function]}
+>
+  <p
+    className="notification"
+  >
+    Roboto font family has been removed
+  </p>
+  <div
+    className="controls"
+  >
+    <UndoButton
+      onClickHandler={[Function]}
+    />
+    <button
+      className="btn btn-round-small close-icon"
+      onClick={[Function]}
+      title="Close"
+      value="close"
+    >
+      <ClearOutlinedIcon
+        fontSize="small"
+      />
+    </button>
+  </div>
+</div>
+`;

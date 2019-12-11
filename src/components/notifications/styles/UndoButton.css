@@ -1,0 +1,9 @@
+.UndoButton {
+  background-color: transparent;
+  font-size: var(--font-xs);
+  height: 36px;
+  min-width: 64px;
+  padding: 0;
+  color: var(--orange);
+  text-transform: uppercase;
+}

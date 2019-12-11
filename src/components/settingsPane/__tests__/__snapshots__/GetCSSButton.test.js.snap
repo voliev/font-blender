@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<button
+  className="GetCSSButton btn-blue-rect"
+  disabled={false}
+  name="getStyles"
+  onClick={[MockFunction]}
+  title="Get CSS"
+  value="getStyles"
+>
+  <span
+    className="icon"
+  >
+    <CodeRoundedIcon
+      fontSize="small"
+    />
+  </span>
+  Get CSS
+</button>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<OutsideClickHandler
+  disabled={true}
+  display="block"
+  onOutsideClick={[Function]}
+  useCapture={true}
+>
+  <div
+    className="CategoriesFilter"
+  >
+    <button
+      className="btn btn-round-big"
+      onClick={[Function]}
+      title="Select categories"
+    >
+      <FilterListIcon />
+    </button>
+  </div>
+</OutsideClickHandler>
+`;

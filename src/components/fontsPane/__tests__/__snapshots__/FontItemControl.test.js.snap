@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="FontItemControl"
+>
+  <button
+    className="btn btn-round-small add-circle"
+    data-family="Roboto"
+    onClick={[MockFunction]}
+    title="Add to Selected"
+    value="Roboto"
+  >
+    <AddCircleRoundedIcon
+      fontSize="default"
+    />
+  </button>
+</div>
+`;

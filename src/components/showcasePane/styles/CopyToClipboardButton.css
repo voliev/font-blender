@@ -1,0 +1,4 @@
+.CopyToClipboardButton .icon {
+  display: flex;
+  margin-right: var(--space-xs);
+}

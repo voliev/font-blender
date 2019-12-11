@@ -1,0 +1,29 @@
+.StylesInheritanceInput {
+  align-items: center;
+  display: flex;
+  margin-bottom: var(--space-xs);
+}
+
+.StylesInheritanceInput .label {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.StylesInheritanceInput .checkbox-icon {
+  display: flex;
+  margin-right: var(--space-xs);
+}
+
+.StylesInheritanceInput .inheritance-input:disabled~.label .checkbox-icon {
+  color: var(--light-grey);
+}
+
+.StylesInheritanceInput .code {
+  background: var(--light-grey);
+  border-radius: var(--border-radius-md);
+  font-family: monospace;
+  margin: 0 var(--space-xs);
+  padding: 0 var(--space-xxs);
+}

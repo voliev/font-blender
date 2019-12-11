@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<select
+  className="SortingParameters"
+  id="sorting-param"
+  name="param"
+  onChange={[MockFunction]}
+  title="Select sorting parameter"
+  value="popularity"
+>
+  <option
+    key="popularity"
+    value="popularity"
+  >
+    popularity
+  </option>
+  <option
+    key="alphabetical"
+    value="alpha"
+  >
+    alphabetical
+  </option>
+</select>
+`;

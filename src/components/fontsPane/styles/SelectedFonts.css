@@ -1,0 +1,80 @@
+.SelectedFonts {
+  background-color: var(--white);
+  grid-area: selected;
+  left: 0;
+  max-height: calc(100vh - 4rem);
+  position: absolute;
+  right: 0;
+  /* top: 0 - Keeps the list hidden when first font families */
+  /*          added after initial component render */
+  top: 0;
+  width: var(--side-pane-width);
+  z-index: 100;
+}
+
+.SelectedFonts .main {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 7rem);
+}
+
+/*
+  Display viewport overlay when list
+  of selected fonts is unfolded
+ */
+.SelectedFonts.empty~.overlay,
+.SelectedFonts:not(.active)~.overlay,
+.SelectedFonts:not(.unfolding)~.overlay,
+.SelectedFonts:not(.folding)~.overlay,
+.SelectedFonts:not(.folding-to-clear)~.overlay {
+  background-color: none;
+}
+
+.SelectedFonts.active~.overlay,
+.SelectedFonts.unfolding~.overlay,
+.SelectedFonts.folding~.overlay,
+.SelectedFonts.folding-to-clear~.overlay {
+  background-color: var(--off-black);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: background-color 0.2s;
+  width: 100%;
+  z-index: 50;
+}
+
+.SelectedFonts.empty {
+  bottom: auto;
+  top: 0;
+}
+
+.SelectedFonts.folded {
+  bottom: auto;
+  top: 0;
+  transition: initial;
+  transform: none;
+}
+
+.SelectedFonts.unfolding {
+  bottom: auto;
+  top: 0;
+  transition: transform 0.2s;
+}
+
+.SelectedFonts.active {
+  bottom: 0;
+  top: auto;
+  transition: initial;
+  transform: none;
+}
+
+.SelectedFonts.folding,
+.SelectedFonts.folding-to-clear {
+  bottom: 0;
+  top: auto;
+  transition: transform 0.2s;
+}

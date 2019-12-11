@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="StylesInheritanceInput"
+>
+  <input
+    checked={true}
+    className="inheritance-input"
+    disabled={false}
+    id="h1-inherit-styles"
+    name="inheritStyles"
+    onChange={[MockFunction]}
+    type="checkbox"
+    value="h1"
+  />
+  <label
+    className="label"
+    htmlFor="h1-inherit-styles"
+  >
+    <div
+      className="checkbox-icon"
+    >
+      <CheckBoxOutlinedIcon />
+    </div>
+    Inherit 
+    <code
+      className="code"
+    >
+       &lt;body&gt;
+    </code>
+     styles
+  </label>
+</div>
+`;

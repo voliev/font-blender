@@ -1,0 +1,107 @@
+.FontItem {
+  display: grid;
+  grid-template-columns: 8rem 8rem 2rem;
+  grid-template-rows: minmax(2rem, max-content) 1.5rem 1.5rem;
+  grid-template-areas:
+    "family family controls"
+    "category category controls"
+    "charsets styles controls";
+  cursor: default;
+  opacity: 1;
+  -webkit-transition: opacity 0.8s, background-color 0.2s;
+  transition: opacity 0.8s, background-color 0.2s;
+  padding: var(--space-md) var(--space-md) var(--space-md) var(--space-lg);
+
+  position: relative;
+}
+
+.FontItem.selected,
+.FontItem:hover {
+  transition: background-color 0.2s, color 0.2s;
+  background-color: var(--almost-white);
+}
+
+.FontItem.selected::after,
+.FontItem:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: .4rem;
+  height: 100%;
+  background-color: var(--blue);
+  animation: growY .1s ease-out 1 forwards;
+
+  transform-origin: 50% 50%;
+}
+
+.FontItem .family {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  grid-area: family;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.FontItem .family .family-name {
+  /* TODO: Evaluate margin benefits in this case */
+  margin: 0 var(--space-xs) 0 0;
+}
+
+.FontItem .family .preview-icon {
+  align-items: center;
+  align-self: flex-start;
+  color: var(--grey);
+  display: flex;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.FontItem.preview .family .preview-icon,
+.FontItem .family-name:hover~.preview-icon {
+  opacity: 1;
+  transition: opacity 0.1s;
+}
+
+.FontItem.preview .family .preview-icon {
+  color: var(--blue);
+}
+
+.FontItem .category {
+  align-self: center;
+  color: var(--dark-grey);
+  grid-area: category;
+  justify-self: left;
+  font-weight: 700;
+}
+
+.FontItem .charsets {
+  align-self: center;
+  color: var(--dark-grey);
+  grid-area: charsets;
+  justify-self: left;
+}
+
+.FontItem .styles {
+  align-self: center;
+  color: var(--dark-grey);
+  grid-area: styles;
+  justify-self: left;
+}
+
+.FontItem .number {
+  color: var(--dark-grey);
+  font-weight: 700;
+}
+
+.FontItem.empty {
+  opacity: 0.4;
+  transition: opacity 0.8s;
+}
+
+.FontItem.fetching>*,
+.FontItem.blank>* {
+  filter: blur(6px);
+}

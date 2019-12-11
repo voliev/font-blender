@@ -1,0 +1,20 @@
+.ShowcasePaneHeader {
+  align-items: center;
+  display: flex;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 4rem;
+}
+
+.ShowcasePaneHeader .btn {
+  background-color: var(--light-grey);
+  color: var(--white);
+  margin: 0 var(--space-sm) 0 var(--space-xl);
+  position: fixed;
+}
+
+.ShowcasePaneHeader .btn:focus,
+.ShowcasePaneHeader .btn:hover {
+  box-shadow: var(--hovered-button-shadow);
+}

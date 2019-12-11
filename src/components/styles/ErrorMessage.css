@@ -1,0 +1,12 @@
+.ErrorMessage {
+  align-items: center;
+  background-color: var(--error-background);
+  border: 3px solid var(--error-border);
+  border-radius: var(--border-radius-lg);
+  color: var(--error-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: var(--space-md);
+  padding: var(--space-md);
+}
