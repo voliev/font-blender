@@ -69,7 +69,7 @@ export class Elements extends Component {
 
             {["font-family", "font-style", "font-weight"].map(property => (
               <StylingPropertySelectList
-                disabled={disabled}
+                disabled={disabled || textStyles[element].inheritStyles}
                 element={element}
                 key={property}
                 property={property}
